@@ -13,9 +13,7 @@ export class ToastComponent implements OnInit {
   toastItems: ToastMessage[];
 
   constructor(private ts: ToastService) {
-    this.toastItems = [
-      { id: 1, content: 'Im Testing', dismissed: false, style: 'info' }
-    ];
+    this.toastItems = [];
   }
 
   ngOnInit() {

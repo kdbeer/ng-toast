@@ -1,0 +1,42 @@
+.toast-test {
+  width: 750px;
+  margin: 200px auto;
+  background-color: #eeeeee;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #cccccc;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-2px);
+    transition: all .4s;
+  }
+
+  &__danger {
+    color: red;
+    border-color: red;
+  }
+
+  &__info {
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+  }
+
+  &__warning {
+    color: orange;
+    border-color: orange;
+  }
+
+  &__success {
+    color: springgreen;
+    border-color: springgreen;
+  }
+
+}
